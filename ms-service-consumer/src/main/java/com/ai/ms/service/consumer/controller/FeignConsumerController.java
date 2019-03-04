@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by Jason on 2019/2/8.
  */
-//
+
 @RestController
 public class FeignConsumerController {
 
@@ -19,4 +19,5 @@ public class FeignConsumerController {
     public String findHome(){
         return consumerFeignClient.getDemo();
     }
+
 }

@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ms-config/ms-config.iml" filepath="$PROJECT_DIR$/ms-config/ms-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-dev/ms-dev.iml" filepath="$PROJECT_DIR$/ms-dev/ms-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-es/ms-es.iml" filepath="$PROJECT_DIR$/ms-es/ms-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-eureka/ms-eureka.iml" filepath="$PROJECT_DIR$/ms-eureka/ms-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-report/ms-report.iml" filepath="$PROJECT_DIR$/ms-report/ms-report.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-service/ms-service.iml" filepath="$PROJECT_DIR$/ms-service/ms-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-service-consumer/ms-service-consumer.iml" filepath="$PROJECT_DIR$/ms-service-consumer/ms-service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ms.iml" filepath="$PROJECT_DIR$/spring-cloud-ms.iml" />

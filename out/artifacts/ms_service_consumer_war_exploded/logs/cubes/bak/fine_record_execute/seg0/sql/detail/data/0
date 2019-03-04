@@ -1,0 +1,6 @@
+SQL: -- 未消除告警记录表
+call rpt_nonclearalarm('清华研究院','动环监控','系统告警',2);SQL: -- 未消除告警记录表
+call rpt_nonclearalarm('清华研究院','动环监控','系统告警',2);SQL: -- 未消除告警记录表
+call rpt_nonclearalarm('清华研究院','动环监控','系统告警',2);SQL: -- 未消除告警记录表
+call rpt_nonclearalarm('清华研究院','动环监控','系统告警',2);SQL: -- 未消除告警记录表
+call rpt_nonclearalarm('清华研究院','动环监控','系统告警',2);

@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+druid:
+  url: jdbc:mysql://127.0.0.1:3306/stock?useUnicode=true&characterEncoding=UTF-8
+  username: root
+  password: 1234
+  useSSL: false
+
+mybatis:
+  mapperLocations:
+    - classpath*:/*Mapper.xml
+  type-aliases-package:
+    org.springboot.sample.entity
+spring:
+  thymeleaf:
+    prefix: classpath*:templates/
+
+
+#
+#spring.thymeleaf.suffix=.html
+#spring.thymeleaf.mode=HTML5
+#spring.thymeleaf.encoding=UTF-8
+##热部署文件，页面不产生缓存，及时更新
+#spring.thymeleaf.cache=false
+#spring.resources.chain.strategy.content.enabled=true
+#spring.resources.chain.strategy.content.paths=/**

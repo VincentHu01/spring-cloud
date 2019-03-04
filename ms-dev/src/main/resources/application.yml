@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+# 下面为连接池的补充设置，应用到上面所有数据源中
+spring:
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://127.0.0.1:3306/stock?characterEncoding=utf8
+      username: root
+      password: 1234
+      driver-class-name: com.mysql.jdbc.Driver
+      poolPreparedStatements: true
+      maxOpenPreparedStatements: 100
+      maxActive: 100
+      maxWait: 5000
+
+mybatis:
+  mapperLocations: classpath*:/*Mapper.xml
+  type-aliases-package: com.ai.msdev.domain.Stock
+  configuration:
+        map-underscore-to-camel-case: true

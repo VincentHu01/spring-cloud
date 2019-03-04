@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+
+<!--</beans>-->
+
+<mapper namespace="com.ai.msdev.dao.MybatisDao">
+
+    <resultMap id="result" type="com.ai.msdev.domain.Stock">
+        <result property="code" column="scode" jdbcType="VARCHAR"/>
+        <result property="name" column="sname" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="selectDemo" parameterType="String" resultMap="result">
+        SELECT scode, sname FROM rd163_2 limit 0,10
+    </select>
+
+</mapper>

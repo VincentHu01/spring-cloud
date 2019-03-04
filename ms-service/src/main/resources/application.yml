@@ -1,3 +1,6 @@
+server:
+  port: 8888
+
 spring:
   application:
     name: ms-service
@@ -8,3 +11,4 @@ eureka:
   instance:
     #non-secure-port-enabled: true
     prefer-ip-address: true
+
