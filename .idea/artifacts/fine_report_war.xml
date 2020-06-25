@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="fine-report:war">
-    <output-path>$PROJECT_DIR$/fine-report/target</output-path>
-    <root id="archive" name="fine-report-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="fine-report:war exploded" />
-    </root>
-  </artifact>
-</component>

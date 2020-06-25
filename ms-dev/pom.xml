@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ai</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>ms-dev</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ms-dev</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>

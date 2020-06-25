@@ -1,9 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ms-dev:war" />
+      <artifact name="ms-dev:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72c70781-a4b9-49ba-a807-4db9e1596c9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/fine_report_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/fine_report_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/ms_report_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/ms_report_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/ms_service_consumer_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_11_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_53.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_6_0_201612231935_r.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_20_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_2_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_1_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_2_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_2_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_22_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_unknown.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_unknown.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_4_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_4_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-config/pom.xml" afterPath="$PROJECT_DIR$/ms-config/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-config/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ms-config/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-dev/pom.xml" afterPath="$PROJECT_DIR$/ms-dev/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HomeController.java" afterPath="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/dao/MybatisDao.java" afterPath="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/dao/MybatisDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-es/pom.xml" afterPath="$PROJECT_DIR$/ms-es/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-eureka/pom.xml" afterPath="$PROJECT_DIR$/ms-eureka/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-eureka/src/main/java/com/ai/ms/eureka/MsEurekaApplication.java" afterPath="$PROJECT_DIR$/ms-eureka/src/main/java/com/ai/ms/eureka/MsEurekaApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-eureka/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ms-eureka/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-report/pom.xml" afterPath="$PROJECT_DIR$/ms-report/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-service-consumer/pom.xml" afterPath="$PROJECT_DIR$/ms-service-consumer/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/MsServiceConsumerApplication.java" afterPath="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/MsServiceConsumerApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ConsumerFeignClient.java" afterPath="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ConsumerFeignClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-service/pom.xml" afterPath="$PROJECT_DIR$/ms-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-ms.iml" afterPath="$PROJECT_DIR$/spring-cloud-ms.iml" />
     </list>
     <ignored path="spring-cloud-ms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +270,7 @@
     <ignored path="$PROJECT_DIR$/ms-report/target/" />
     <ignored path="$PROJECT_DIR$/ms-es/target/" />
     <ignored path="$PROJECT_DIR$/ms-dev/target/" />
+    <ignored path="$PROJECT_DIR$/ms-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,33 +297,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterceptorConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/InterceptorConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Access.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/Access.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/AuthenticationInterceptor.java">
+      <file leaf-file-name="MsConfigApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-config/src/main/java/com/ai/ms/config/MsConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="176">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,61 +319,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-report/.gitignore">
+      <file leaf-file-name="MsEurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-eureka/src/main/java/com/ai/ms/eureka/MsEurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="115">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-service-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+            <state relative-caret-position="154">
+              <caret line="91" column="33" lean-forward="false" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-service/src/main/java/com/ai/ms/service/MsServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsServiceConsumerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/MsServiceConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-service/.gitignore">
+      <file leaf-file-name="GatewayApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/java/com/ai/ms/gateway/GatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-dev/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/TestInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="58" />
+            <state relative-caret-position="22">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,16 +395,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HelloController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-eureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="59" column="73" lean-forward="false" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,26 +436,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ms-report/src/main/java/com/ai/ms/ServletInitializer.java" />
-        <option value="$PROJECT_DIR$/ms-report/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-report/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/webapp/WEB-INF/index.js" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/webapp/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/FeignConsumerController.java" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/MsServiceConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ReportPageController.java" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/webapp/WEB-INF/jsp/report.jsp" />
-        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/domain/Stock.java" />
-        <option value="$PROJECT_DIR$/ms-es/target/classes/application.yml" />
-        <option value="$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/service/StockService.java" />
         <option value="$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/dao/MybatisDao.java" />
         <option value="$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/ms-es/pom.xml" />
         <option value="$PROJECT_DIR$/ms-es/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/config/DruidConfig.java" />
         <option value="$PROJECT_DIR$/ms-es/src/main/resources/MybatisMapper.xml" />
@@ -220,22 +453,40 @@
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/mapper/BaseMapper.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/MsDevApplication.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/dao/MybatisDao.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/domain/Stock.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/resources/MybatisMapper.xml" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/DatasourceConfig.java" />
-        <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/service/StockService.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/Access.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/Access.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/TestInterceptor.java" />
-        <option value="$PROJECT_DIR$/ms-dev/pom.xml" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/InterceptorConfig.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/AuthenticationInterceptor.java" />
         <option value="$PROJECT_DIR$/ms-report/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/dao/MybatisDao.java" />
+        <option value="$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/ms-dev/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-report/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-es/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/test/java/com/ai/ms/gateway/GatewayApplicationTests.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/ai/ms/gateway/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/MsServiceConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ConsumerFeignClient.java" />
+        <option value="$PROJECT_DIR$/ms-eureka/src/main/java/com/ai/ms/eureka/MsEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/ms-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-config/src/main/java/com/ai/ms/config/MsConfigApplication.java" />
+        <option value="$PROJECT_DIR$/ms-config/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
       </list>
     </option>
   </component>
@@ -271,6 +522,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ms-dev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -283,8 +543,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="-8" />
+    <option name="x" value="5" />
+    <option name="y" value="140" />
     <option name="width" value="1307" />
     <option name="height" value="784" />
   </component>
@@ -306,9 +566,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,39 +580,190 @@
             <path>
               <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-report" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-report" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-report" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-report" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
               <item name="ms-service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +774,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3689655" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../life" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -371,6 +783,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -404,7 +817,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsDevApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="FineReportApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -424,11 +837,99 @@
       <module name="fine-report" />
       <envs />
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ai.ms.gateway.GatewayApplication" />
+      <module name="ms-gateway" />
+      <envs />
+    </configuration>
     <configuration name="MsConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ai.ms.config.MsConfigApplication" />
       <module name="ms-config" />
       <envs />
+    </configuration>
+    <configuration name="MsDev" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ms-dev:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-cloud-ms_4" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1097" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57569" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ms-dev:war exploded" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ms-dev:war" />
+          <artifact name="ms-dev:war exploded" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ms-dev:war" />
+          <artifact name="ms-dev:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration name="MsDevApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1064,7 +1565,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="8">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.MsEurekaApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.MsConfigApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.MsServiceApplication" />
@@ -1072,7 +1573,9 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.MsReportApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.MsEsApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.MsDevApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Application.FineReportApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Tomcat Server.MsDev" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.GatewayApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Application.FineReportApplication" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1117,48 +1620,70 @@
       <workItem from="1551670601047" duration="2369000" />
       <workItem from="1551680892167" duration="41000" />
       <workItem from="1551680974480" duration="153000" />
-      <workItem from="1551681169032" duration="258000" />
+      <workItem from="1551681169032" duration="4779000" />
+      <workItem from="1551937639726" duration="3287000" />
+      <workItem from="1551962372141" duration="58000" />
+      <workItem from="1551962977997" duration="1748000" />
+      <workItem from="1552283186074" duration="1088000" />
+      <workItem from="1552290162861" duration="5053000" />
+      <workItem from="1552320501483" duration="813000" />
+      <workItem from="1589480118774" duration="806000" />
+      <workItem from="1589685429524" duration="2151000" />
+      <workItem from="1593054087026" duration="9669000" />
+      <workItem from="1593067553223" duration="536000" />
+      <workItem from="1593068138897" duration="2886000" />
+      <workItem from="1593071097166" duration="772000" />
+      <workItem from="1593071917609" duration="949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122146000" />
+    <option name="totallyTimeSpent" value="156483000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41080198" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120272316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4184514" sideWeight="0.8835098" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25864908" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39183056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30971992" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5436573" sideWeight="0.8835098" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27512357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25700164" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3723229" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1185,659 +1710,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/resources/MybatisMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/domain/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/dao/MybatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ReportPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/target/classes/application.yml" />
-    <entry file="file://$PROJECT_DIR$/ms-es/target/classes/com/ai/es/MsEsApplication.class" />
-    <entry file="uml://MAVEN/com.ai:ms-es:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.ai:ms-es:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="235.5">com.ai:ms-es:0.0.1-SNAPSHOT</node>
-            <node x="1337.0" y="246.75">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE</node>
-            <node x="1893.5" y="496.5697737302062">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE</node>
-            <node x="2085.0" y="512.1494116120098">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE</node>
-            <node x="2281.0" y="517.3994116120098">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-aop:jar:5.1.5.RELEASE</node>
-            <node x="2472.0" y="479.14941161200977">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE</node>
-            <node x="2458.0" y="550.3994116120098">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-expression:jar:5.1.5.RELEASE</node>
-            <node x="1612.5" y="509.3197737302062">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.3.RELEASE</node>
-            <node x="1609.0" y="215.16096305269514">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE</node>
-            <node x="1884.0" y="211.75">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="2088.0" y="204.25">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="1891.5" y="141.75">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
-            <node x="2101.0" y="134.25">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
-            <node x="1899.5" y="291.375">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="1632.0" y="285.16096305269514">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="2675.0" y="507.28596305269514">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE</node>
-            <node x="2855.0" y="507.28596305269514">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE/org.springframework:spring-jcl:jar:5.1.5.RELEASE</node>
-            <node x="1660.0" y="145.16096305269514">org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
-            <node x="159.5" y="922.875">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE</node>
-            <node x="772.0" y="967.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.3.RELEASE</node>
-            <node x="423.0" y="949.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.3.RELEASE</node>
-            <node x="486.5" y="791.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="789.0" y="809.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="1059.0" y="809.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="1381.5" y="809.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="2104.0" y="346.64941161200977">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="502.0" y="1049.3436553603874">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/junit:junit:jar:4.12</node>
-            <node x="479.5" y="1189.3436553603874">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
-            <node x="475.0" y="639.6494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
-            <node x="786.5" y="558.5697737302062">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.10</node>
-            <node x="767.5" y="628.5697737302062">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.10</node>
-            <node x="792.5" y="698.5697737302062">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
-            <node x="778.0" y="1044.803257765856">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="466.5" y="1119.3436553603874">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="484.5" y="879.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="782.5" y="879.1494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="2479.0" y="992.6494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework:spring-test:jar:5.1.5.RELEASE</node>
-            <node x="478.0" y="709.6494116120098">org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
-            <node x="147.0" y="338.5">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0</node>
-            <node x="432.5" y="429.51155144068537">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1</node>
-            <node x="717.0" y="429.51155144068537">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1</node>
-            <node x="1084.0" y="455.3197737302062">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis:jar:3.4.0</node>
-            <node x="1063.0" y="268.5">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis-spring:jar:1.3.0</node>
-            <node x="1035.0" y="385.3197737302062">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE</node>
-            <node x="1904.0" y="377.5697737302062">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/com.zaxxer:HikariCP:jar:3.2.0</node>
-            <node x="2093.5" y="442.14941161200977">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE</node>
-            <node x="2287.5" y="449.89941161200977">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE/org.springframework:spring-tx:jar:5.1.5.RELEASE</node>
-            <node x="1290.0" y="522.0697737302062">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.0.0</node>
-            <node x="491.0" y="303.5">tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/tk.mybatis:mapper:jar:3.3.9</node>
-            <node x="206.0" y="70.0">tk.mybatis:mapper:jar:3.4.2</node>
-            <node x="469.5" y="70.0">tk.mybatis:mapper:jar:3.4.2/javax.persistence:persistence-api:jar:1.0</node>
-            <node x="213.5" y="175.0">com.alibaba:druid:jar:1.0.25</node>
-            <node x="490.0" y="140.0">com.alibaba:druid:jar:1.0.25/com.alibaba:jconsole:jar:1.8.0</node>
-            <node x="499.5" y="210.0">com.alibaba:druid:jar:1.0.25/com.alibaba:tools:jar:1.8.0</node>
-            <node x="206.5" y="992.875">org.projectlombok:lombok:jar:1.16.14</node>
-            <node x="198.0" y="0.0">org.apache.ibatis:ibatis-core:jar:3.0</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE">
-              <point x="58.0" y="-11.25" />
-              <point x="2281.0" y="503.02441161200977" />
-              <point x="2378.0" y="503.02441161200977" />
-              <point x="-54.5" y="3.75" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/com.zaxxer:HikariCP:jar:3.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="40.5" y="-0.0" />
-              <point x="2005.0" y="392.5697737302062" />
-              <point x="2085.0" y="367.64941161200977" />
-              <point x="-39.0" y="6.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE">
-              <point x="119.0" y="6.0" />
-              <point x="1035.0" y="497.6947737302062" />
-              <point x="1804.0" y="497.6947737302062" />
-              <point x="-51.0" y="-3.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="45.0" y="-0.0" />
-              <point x="2005.0" y="306.375" />
-              <point x="2085.0" y="361.64941161200977" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE/org.springframework:spring-jcl:jar:5.1.5.RELEASE">
-              <point x="50.0" y="-0.0" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="43.5" y="-7.5" />
-              <point x="2005.0" y="798.6494116120098" />
-              <point x="2085.0" y="373.64941161200977" />
-              <point x="-39.0" y="12.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.assertj:assertj-core:jar:3.11.1">
-              <point x="85.5" y="13.846153846153811" />
-              <point x="343.0" y="951.7211538461538" />
-              <point x="423.0" y="1204.3436553603874" />
-              <point x="-50.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="58.0" y="11.25" />
-              <point x="2281.0" y="590.8994116120098" />
-              <point x="2595.0" y="590.8994116120098" />
-              <point x="-50.0" y="4.5" />
-            </edge>
-            <edge source="tk.mybatis:mapper:jar:3.4.2" target="tk.mybatis:mapper:jar:3.4.2/javax.persistence:persistence-api:jar:1.0">
-              <point x="39.0" y="-0.0" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.3.RELEASE">
-              <point x="107.0" y="7.5" />
-              <point x="717.0" y="974.6494116120098" />
-              <point x="-64.0" y="-7.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2">
-              <point x="97.5" y="-10.0" />
-              <point x="-53.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="85.5" y="4.615384615384642" />
-              <point x="343.0" y="942.4903846153846" />
-              <point x="423.0" y="1033.1494116120098" />
-              <point x="2595.0" y="1033.1494116120098" />
-              <point x="-50.0" y="13.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
-              <point x="60.5" y="-7.5" />
-              <point x="-55.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis:jar:3.4.0">
-              <point x="119.0" y="-0.0" />
-              <point x="1035.0" y="470.3197737302062" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="63.5" y="-0.0" />
-              <point x="637.0" y="1134.3436553603874" />
-              <point x="717.0" y="1069.803257765856" />
-              <point x="-58.0" y="10.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework:spring-test:jar:5.1.5.RELEASE">
-              <point x="85.5" y="2.307692307692264" />
-              <point x="343.0" y="940.1826923076923" />
-              <point x="423.0" y="1007.6494116120098" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.0.0" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.3.RELEASE">
-              <point x="119.5" y="-0.0" />
-              <point x="-94.0" y="3.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
-              <point x="45.5" y="-0.0" />
-              <point x="-53.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.3.RELEASE">
-              <point x="85.5" y="-2.307692307692264" />
-              <point x="343.0" y="935.5673076923077" />
-              <point x="-107.0" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.14">
-              <point x="33.5" y="12.857142857142833" />
-              <point x="147.0" y="1007.875" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/junit:junit:jar:4.12">
-              <point x="85.5" y="9.230769230769283" />
-              <point x="343.0" y="947.1057692307693" />
-              <point x="423.0" y="1064.3436553603874" />
-              <point x="-28.0" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="org.apache.ibatis:ibatis-core:jar:3.0">
-              <point x="33.5" y="-12.857142857142861" />
-              <point x="147.0" y="15.0" />
-              <point x="-47.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
-              <point x="97.5" y="10.0" />
-              <point x="1884.0" y="306.375" />
-              <point x="-45.0" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE">
-              <point x="33.5" y="-0.0" />
-              <point x="-72.5" y="-11.25" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4">
-              <point x="85.5" y="-11.538461538461547" />
-              <point x="343.0" y="926.3365384615385" />
-              <point x="423.0" y="654.6494116120098" />
-              <point x="-55.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-aop:jar:5.1.5.RELEASE">
-              <point x="58.0" y="-3.75" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="85.5" y="6.923076923076906" />
-              <point x="343.0" y="944.7980769230769" />
-              <point x="423.0" y="1038.8436553603874" />
-              <point x="637.0" y="1038.8436553603874" />
-              <point x="717.0" y="1049.803257765856" />
-              <point x="-58.0" y="-10.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-aop:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE">
-              <point x="48.5" y="-7.5" />
-              <point x="2458.0" y="505.39941161200977" />
-              <point x="-54.5" y="11.25" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1">
-              <point x="98.0" y="3.75" />
-              <point x="-97.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.10">
-              <point x="55.0" y="-0.0" />
-              <point x="637.0" y="654.6494116120098" />
-              <point x="717.0" y="643.5697737302062" />
-              <point x="-68.5" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0">
-              <point x="33.5" y="4.285714285714278" />
-              <point x="-98.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.3.RELEASE">
-              <point x="72.5" y="12.5" />
-              <point x="1529.0" y="274.25" />
-              <point x="-94.0" y="-11.25" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
-              <point x="43.5" y="7.5" />
-              <point x="637.0" y="813.6494116120098" />
-              <point x="717.0" y="824.1494116120098" />
-              <point x="-47.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.3.RELEASE">
-              <point x="119.0" y="12.0" />
-              <point x="1035.0" y="511.5697737302062" />
-              <point x="1529.0" y="511.5697737302062" />
-              <point x="-94.0" y="-3.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE">
-              <point x="85.5" y="-13.846153846153811" />
-              <point x="343.0" y="924.0288461538462" />
-              <point x="423.0" y="548.0697737302062" />
-              <point x="1210.0" y="548.0697737302062" />
-              <point x="1290.0" y="273.0" />
-              <point x="-72.5" y="11.25" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis-spring:jar:1.3.0">
-              <point x="119.0" y="-12.0" />
-              <point x="1035.0" y="283.5" />
-              <point x="-59.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE">
-              <point x="64.0" y="-0.0" />
-              <point x="1804.0" y="982.1494116120098" />
-              <point x="-51.0" y="11.25" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="72.5" y="-12.5" />
-              <point x="1529.0" y="249.25" />
-              <point x="1609.0" y="117.2161893224889" />
-              <point x="2595.0" y="117.2161893224889" />
-              <point x="-50.0" y="-13.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.10">
-              <point x="55.0" y="-10.0" />
-              <point x="637.0" y="644.6494116120098" />
-              <point x="717.0" y="573.5697737302062" />
-              <point x="-49.5" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1">
-              <point x="97.5" y="-0.0" />
-              <point x="-119.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE">
-              <point x="87.5" y="-10.0" />
-              <point x="1290.0" y="265.5" />
-              <point x="-72.5" y="3.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
-              <point x="97.5" y="-0.0" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="com.alibaba:druid:jar:1.0.25">
-              <point x="33.5" y="-4.285714285714278" />
-              <point x="147.0" y="190.0" />
-              <point x="-31.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-expression:jar:5.1.5.RELEASE">
-              <point x="58.0" y="3.75" />
-              <point x="2281.0" y="565.3994116120098" />
-              <point x="-68.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="28.0" y="-0.0" />
-              <point x="637.0" y="1064.3436553603874" />
-              <point x="717.0" y="1059.803257765856" />
-              <point x="-58.0" y="-0.0" />
-            </edge>
-            <edge source="com.alibaba:druid:jar:1.0.25" target="com.alibaba:druid:jar:1.0.25/com.alibaba:tools:jar:1.8.0">
-              <point x="31.5" y="7.5" />
-              <point x="343.0" y="197.5" />
-              <point x="423.0" y="225.0" />
-              <point x="-30.5" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/com.zaxxer:HikariCP:jar:3.2.0">
-              <point x="87.5" y="-0.0" />
-              <point x="1290.0" y="392.5697737302062" />
-              <point x="-40.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE">
-              <point x="72.5" y="-2.5" />
-              <point x="1529.0" y="259.25" />
-              <point x="-97.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
-              <point x="85.5" y="11.538461538461547" />
-              <point x="343.0" y="949.4134615384615" />
-              <point x="423.0" y="1134.3436553603874" />
-              <point x="-63.5" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE">
-              <point x="87.5" y="10.0" />
-              <point x="1290.0" y="431.375" />
-              <point x="2005.0" y="431.375" />
-              <point x="-49.5" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE/org.springframework:spring-tx:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="42.0" y="-7.5" />
-              <point x="2595.0" y="457.39941161200977" />
-              <point x="-50.0" y="-7.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
-              <point x="85.5" y="-4.615384615384642" />
-              <point x="343.0" y="933.2596153846154" />
-              <point x="423.0" y="894.1494116120098" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework:spring-test:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="47.5" y="-0.0" />
-              <point x="2595.0" y="1007.6494116120098" />
-              <point x="-50.0" y="10.5" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.0.0">
-              <point x="98.0" y="11.25" />
-              <point x="423.0" y="537.0697737302062" />
-              <point x="-119.5" y="-0.0" />
-            </edge>
-            <edge source="com.alibaba:druid:jar:1.0.25" target="com.alibaba:druid:jar:1.0.25/com.alibaba:jconsole:jar:1.8.0">
-              <point x="31.5" y="-7.5" />
-              <point x="343.0" y="182.5" />
-              <point x="423.0" y="155.0" />
-              <point x="-40.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
-              <point x="72.5" y="2.5" />
-              <point x="1529.0" y="264.25" />
-              <point x="1609.0" y="300.16096305269514" />
-              <point x="-74.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="53.0" y="7.5" />
-              <point x="2085.0" y="349.64941161200977" />
-              <point x="-39.0" y="-12.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
-              <point x="85.5" y="-6.923076923076906" />
-              <point x="343.0" y="930.9519230769231" />
-              <point x="423.0" y="806.1494116120098" />
-              <point x="-43.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2">
-              <point x="53.0" y="-7.5" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/tk.mybatis:mapper:jar:3.3.9">
-              <point x="98.0" y="-3.75" />
-              <point x="423.0" y="318.5" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE">
-              <point x="49.5" y="10.0" />
-              <point x="2281.0" y="490.39941161200977" />
-              <point x="-54.5" y="-3.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="54.5" y="-0.0" />
-              <point x="2595.0" y="494.14941161200977" />
-              <point x="-50.0" y="-4.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
-              <point x="47.0" y="-0.0" />
-              <point x="-63.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="51.0" y="7.5" />
-              <point x="2085.0" y="593.8994116120098" />
-              <point x="2595.0" y="593.8994116120098" />
-              <point x="-50.0" y="7.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.3.RELEASE">
-              <point x="85.5" y="-0.0" />
-              <point x="343.0" y="937.875" />
-              <point x="423.0" y="989.6494116120098" />
-              <point x="-64.0" y="7.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
-              <point x="63.5" y="-0.0" />
-              <point x="-28.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE">
-              <point x="51.0" y="-7.5" />
-              <point x="-58.0" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="tk.mybatis:mapper:jar:3.4.2">
-              <point x="33.5" y="-8.571428571428584" />
-              <point x="147.0" y="84.99999999999994" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="com.ai:ms-es:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE">
-              <point x="33.5" y="8.571428571428555" />
-              <point x="147.0" y="937.875" />
-              <point x="-85.5" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="49.5" y="-10.0" />
-              <point x="2281.0" y="412.28596305269514" />
-              <point x="2595.0" y="412.28596305269514" />
-              <point x="-50.0" y="-10.5" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE/org.springframework:spring-tx:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE">
-              <point x="42.0" y="7.5" />
-              <point x="2458.0" y="482.89941161200977" />
-              <point x="-54.5" y="-11.25" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.3.RELEASE">
-              <point x="107.0" y="-7.5" />
-              <point x="1529.0" y="956.6494116120098" />
-              <point x="-94.0" y="11.25" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-aop:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="48.5" y="7.5" />
-              <point x="2595.0" y="539.8994116120098" />
-              <point x="-50.0" y="-1.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE">
-              <point x="72.5" y="7.5" />
-              <point x="1529.0" y="269.25" />
-              <point x="1609.0" y="338.34118932248896" />
-              <point x="1804.0" y="338.34118932248896" />
-              <point x="-51.0" y="-11.25" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.yaml:snakeyaml:jar:1.23">
-              <point x="72.5" y="-7.5" />
-              <point x="1529.0" y="254.25" />
-              <point x="1609.0" y="160.16096305269514" />
-              <point x="-46.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2">
-              <point x="85.5" y="-9.230769230769283" />
-              <point x="343.0" y="928.6442307692307" />
-              <point x="423.0" y="724.6494116120098" />
-              <point x="-52.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE/org.springframework:spring-jdbc:jar:5.1.5.RELEASE/org.springframework:spring-tx:jar:5.1.5.RELEASE">
-              <point x="49.5" y="-0.0" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE">
-              <point x="98.0" y="-11.25" />
-              <point x="423.0" y="258.0" />
-              <point x="-72.5" y="-3.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="60.5" y="7.5" />
-              <point x="2085.0" y="355.64941161200977" />
-              <point x="-39.0" y="-6.0" />
-            </edge>
-            <edge source="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="tk.mybatis:mapper-spring-boot-starter:jar:1.1.0/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.3.RELEASE">
-              <point x="119.0" y="-6.0" />
-              <point x="-87.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.3.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6">
-              <point x="55.0" y="10.0" />
-              <point x="637.0" y="664.6494116120098" />
-              <point x="717.0" y="713.5697737302062" />
-              <point x="-43.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE/org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-expression:jar:5.1.5.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE">
-              <point x="68.5" y="-0.0" />
-              <point x="-50.0" y="1.5" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot:jar:2.1.3.RELEASE">
-              <point x="94.0" y="-0.0" />
-              <point x="-51.0" y="3.75" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.28335021952043227" x="1471.0" y="690.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-service-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-config/src/main/java/com/ai/ms/config/MsConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/service/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/domain/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/ms-es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="76" column="25" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/MsEsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-es/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/MyBatisConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/MyBatisMapperScannerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/DruidConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/DruidProperties.java" />
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/DruidAutoConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/dao/MybatisDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1847,34 +1719,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/mapper/BaseMapper.java" />
     <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/DataSource1Config.java" />
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/service/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/domain/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/dao/MybatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/DatasourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="62" column="2" lean-forward="false" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1885,11 +1733,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/TestInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-report/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/Access.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/AuthenticationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/domain/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/dao/MybatisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/service/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-es/src/main/java/com/ai/es/MsEsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1900,98 +1838,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/MsDevApplication.java">
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="90" column="34" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/Access.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/TestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/auth/AuthenticationInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="704">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ms-dev/src/main/java/com/ai/msdev/MsDevApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-report/src/main/java/com/ai/ms/MsReportApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-report/src/main/java/com/ai/ms/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ReportPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/FeignConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms-service/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-report/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764">
+          <caret line="66" column="42" lean-forward="false" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-dev/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms-dev/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/test/java/com/ai/ms/gateway/GatewayApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service/src/main/java/com/ai/ms/service/controller/HomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/controller/ConsumerFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-config/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1999,19 +1987,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms-report/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ms-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="303">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/ms-config/src/main/java/com/ai/ms/config/MsConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        <state relative-caret-position="176">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="59" column="73" lean-forward="false" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-eureka/src/main/java/com/ai/ms/eureka/MsEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="91" column="33" lean-forward="false" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service/src/main/java/com/ai/ms/service/MsServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-service-consumer/src/main/java/com/ai/ms/service/consumer/MsServiceConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/java/com/ai/ms/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2021,7 +2089,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>fine-report:war</last-edited>
+          <last-edited>ms-dev:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2046,7 +2114,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.10.4</last-edited>
+          <last-edited>scala-sdk-2.12.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2070,11 +2138,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-cloud-ms</last-edited>
+          <last-edited>ms-dev</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3689655" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

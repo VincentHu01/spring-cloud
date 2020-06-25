@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ms-dev" />
     <file type="web" url="file://$PROJECT_DIR$/ms-report" />
     <file type="web" url="file://$PROJECT_DIR$/ms-service-consumer" />
   </component>
@@ -15,6 +16,7 @@
         <option value="$PROJECT_DIR$/ms-report/pom.xml" />
         <option value="$PROJECT_DIR$/ms-es/pom.xml" />
         <option value="$PROJECT_DIR$/ms-dev/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
       </list>
     </option>
   </component>

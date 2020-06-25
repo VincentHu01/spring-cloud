@@ -13,6 +13,7 @@ import javax.annotation.Resources;
 import java.util.List;
 
 @Mapper
+@Component
 public interface MybatisDao {
 
     List<Stock> selectDemo();
