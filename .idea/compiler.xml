@@ -11,9 +11,10 @@
         <module name="ms-es" />
         <module name="ms-eureka" />
         <module name="ms-gateway" />
-        <module name="ms-report" />
         <module name="ms-service" />
         <module name="ms-service-consumer" />
+        <module name="ms-service01" />
+        <module name="ms-service02" />
         <module name="spring-cloud-ms" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,8 @@
       <module name="ms-report" target="1.8" />
       <module name="ms-service" target="1.8" />
       <module name="ms-service-consumer" target="1.8" />
+      <module name="ms-service01" target="1.8" />
+      <module name="ms-service02" target="1.8" />
       <module name="spring-cloud-ms" target="1.8" />
     </bytecodeTargetLevel>
   </component>

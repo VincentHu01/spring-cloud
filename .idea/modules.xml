@@ -7,9 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/ms-es/ms-es.iml" filepath="$PROJECT_DIR$/ms-es/ms-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-eureka/ms-eureka.iml" filepath="$PROJECT_DIR$/ms-eureka/ms-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ms-report/ms-report.iml" filepath="$PROJECT_DIR$/ms-report/ms-report.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ms-service/ms-service.iml" filepath="$PROJECT_DIR$/ms-service/ms-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-service-consumer/ms-service-consumer.iml" filepath="$PROJECT_DIR$/ms-service-consumer/ms-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-service01/ms-service01.iml" filepath="$PROJECT_DIR$/ms-service01/ms-service01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-service01/ms-service01.iml" filepath="$PROJECT_DIR$/ms-service01/ms-service01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-service02/ms-service02.iml" filepath="$PROJECT_DIR$/ms-service02/ms-service02.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-ms.iml" filepath="$PROJECT_DIR$/spring-cloud-ms.iml" />
     </modules>
   </component>
